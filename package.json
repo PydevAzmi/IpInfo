@@ -1,0 +1,34 @@
+{
+  "name": "ipinfo",
+  "version": "1.0.0",
+  "description": "Lightweight service to fetch client IP address.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PydevAzmi/IpInfo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PydevAzmi/IpInfo/issues"
+  },
+  "homepage": "https://github.com/PydevAzmi/IpInfo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
